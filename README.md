@@ -1,3 +1,6 @@
-# EcoView
-Built a responsive Air Quality Index (AQI) monitoring app using Frontend that displays pollution levels for specific locations.
-Provided recommendations for tree plantation based on air quality data.
+# Air Pollution Indicator
+
+
+<p align="center">
+	Plant more <img src="/images/tree.svg" width="35" height="35" />
+</p>
