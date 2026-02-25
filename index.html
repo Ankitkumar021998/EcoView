@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoView - Air Quality App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="app">
+
+    <h1 class="logo">🌿 EcoView</h1>
+
+    <div class="card">
+
+      <h2>Air Pollution Indicator</h2>
+
+      <div class="inputs">
+        <input type="number" id="latitude" placeholder="Latitude">
+        <input type="number" id="longitude" placeholder="Longitude">
+        <button id="searchBtn">Search</button>
+        <button id="locBtn"> Use My Location</button>
+
+      </div>
+
+      <div id="loader" class="loader hidden"></div>
+
+      <div class="result hidden" id="result">
+        <h4 id="cityName"></h4>
+        <h1 id="aqiValue">--</h1>
+        <h3 id="aqiStatus">--</h3>
+
+        <div class="grid" id="components"></div>
+      </div>
+
+      <p id="error" class="error"></p>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
